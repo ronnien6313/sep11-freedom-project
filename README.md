@@ -1,11 +1,11 @@
 # SEP11 Freedom Project
-by X
+by Ronnie Ng
 
 ## Context
-The "Freedom Project" for SEP11 is all about X. The purpose of this blog is to X.
+The "Freedom Project" for SEP11 is all about creating an app based on what we want to make. The purpose of this blog is to write about my progress on creating my app.
 
 ## Content
-For my project, I am making X. This blog will walk through my process of independently studying X in order to make X.
+For my project, I am making an app that stores information with firebase. I was thinking about storing literally anythin,g but I would start with storing game information. This blog will walk through my process of independently studying firebase in order to make an app that stores information about games.
 
 ## Links
 
