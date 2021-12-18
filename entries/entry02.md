@@ -75,10 +75,11 @@ Finally we have deleting documents.  Just like adding documents the code creates
 
 ### EDP
 
-
+I am currently on stage on stage 2 or 3 of the engineering designing process. After looking back at my other blog, I don't think I was at stage 3 or 4 of EDP because I was just trying to find out want I wanted to do with my freedom project. I currently learning about firebase right now and testing code out, trying to see what I should and should not use. I'm doing my research on what I need to learn, for example what I'm learning now is Firestore but maybe near the future I could learn authentication too.
 
 ### Skills
 
+The skills I learned from doing firebase so far is how to google and time management. When trying to learn firebase, I have to use google to search what I needed. There are tons of different firebase tutorials out there and finding which firestore tutorial I need was pretty hard. Some firestore videos were outdates and couldn't be used anymore while others were available. I also learned time management because every week me and my partner would talk about what we learned over the week. For example if I learned how to add and delete documents and he did too, we would just see what we both did. Or if we had problems with something we would talk it out with each other. Time management is important because I need to stay on task and do my part of the work while balancing my other needs.
 
 
 [Previous](entry01.md) | [Next](entry03.md)
