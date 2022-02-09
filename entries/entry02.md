@@ -26,11 +26,11 @@ Next thing I learned was how to get documents and see them in the console.
 getDocs(colRef)
   .then(snapshot => {
     console.log(snapshot.docs)
-    let books = []
+    let games = []
     snapshot.docs.forEach(doc => {
-      books.push({ ...doc.data(), id: doc.id })
+      games.push({ ...doc.data(), id: doc.id })
     })
-    console.log(books)
+    console.log(games)
   })
   .catch(err => {
     console.log(err.message)
