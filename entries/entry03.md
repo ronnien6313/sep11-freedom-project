@@ -5,7 +5,7 @@
 
 Tutorial : [Auth Tutorial from 11 to 13](https://www.youtube.com/watch?v=n-kUZw97-lA&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=11)
 
-So far, What I focused learning about on Firebase was Firestore, their realtime database. But since last blog I stated that I wanted to learn how to use Firebase Authentication over winter break, and that's exactly what I did. Although I did not dive too deep into it, it was pretty cool to learn and I hope to implement it into my MVP. 
+So far, What I focused on learning about on Firebase was Firestore, their real-time database. But since the last blog, I stated that I wanted to learn how to use Firebase Authentication over winter break, and that's exactly what I did. Although I did not dive too deep into it, it was pretty cool to learn and I hope to implement it into my MVP. 
 
 So just like Firestore, I need to import some tools from Firebase under `import{}`. The tools that I have imported this time are `getAuth`, `createUserWithEmailAndPassword`, `signOut`, and `signUpWithEmailAndPassword`. Just like their names suggest, I need `getAuth` is basically just Authentication, `createUserWithEmailAndPassword` helps register a new user, `signOut` logs them out, and `signUpWithEmailAndPassword` allows them to login. The import code looks like this :
 
@@ -60,7 +60,7 @@ logOutButton.addEventListener('click', () => {
 })
 ```
 
-Just like previous code it uses `addEventListener` to make it so on click it will sign out a user. To my knowledge, the difference between `submit` and `click` is that `click` makes the computer wait for a click, nothing more. But when we use `submit` it's kind of like passing through more data to the computer. 
+Just like the previous code it uses `addEventListener` to make it so on click it will sign out a user. To my knowledge, the difference between `submit` and `click` is that `click` makes the computer wait for a click, nothing more. But when we use `submit` it's kind of like passing through more data to the computer. 
 
 The log out code isn't that complicated to understand as it is pretty straightfoward. It notifies us in the console that the user has signed out, and then proceeds to log into the console any errors we get.
 
