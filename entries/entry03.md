@@ -86,6 +86,14 @@ logInForm.addEventListener('submit', (e) => {
 
 Once again, we use `addEventListener` to make it that when the button is presed the next block of code is fired. It then creates two consts, `email` and `password` which is the users information. It then uses `signInWithEmailAndPassword` to log the user in using the email and password from the `auth` const. The computer notifies us that the user has successfully logged in and then logs any errors into the console. But, If you type in the wrong user credentials, the code will return an error in the console saying that the credentials don't match.
 
+### EDP
+
+I think that I am still hovering around EDP stage 2 or 3 because I'm still learning more about my tool and what I can use to help reach my MVP. To be honest, I think that I will leave Auth out for a bit because I want to learn how I can display my firebase data on the page, not just the console so users can actually visualize what they put.
+
+### Skills
+
+The skills that I have learned while doing firebase so far is communication and time management. I have to convey to my partner what I'm learning and what he's learning so we can kind of be on the same page. We both wanted to learn Authentication and finish the tutorial so we could move on to something else. The next skill I learned so far is time management. I wouldn't say it is a skill I developed but a mistake I have learned from. When I was first learning firebase I had been managing my time well, but after awhile I started slacking a bit and started to slow down on the learning. But the wakeup call was when my blog was coming up and thats when I realised that I should start managing my time better.
+
 
 
 [Previous](entry02.md) | [Next](entry04.md)
