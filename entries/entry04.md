@@ -55,21 +55,24 @@ After visualizing information comes deleting.
 
 ```js
 document.querySelector('#delete').addEventListener('click', function(event){
-      deleteDoc(doc(db,'cards', document.querySelector('#gone').innerHTML))
+      deleteDoc(doc(db,'cards', document.querySelector('#gone').innerHTML)) // line 1
       then(() => {
-        document.querySelector('.box').style.display ='none'
-        document.querySelector('.'+document.querySelector('#gone').innerHTML).remove()
+        document.querySelector('.box').style.display ='none' // line 2
+        document.querySelector('.'+document.querySelector('#gone').innerHTML).remove() // line 3
       })
 })
 ```
 
-The 
+What this does it make it so the delete button listens for a click, and when it is triggered it will delete the current card. What line one does it actually delete all of the card info. We use the `deleteDoc()` function, and pass the arguments `db, cards`. These two arguments basically just goes into our firestore database, we then pass the argument `document.querySelector('#gone').innerHTML`. This argument contains the unique ID of the card we want to delete. After deleting the card, we want to close the popup which is what line 2 does. What line 3 does is remove the card from website, because not only do we have to delete the information, but the literal card itself.
 
 
+### EDP
 
+I think that I am currently on stage 5 of the EDP. Me and my partner are currently workings towards our MVP (Minimal Viable Product). Once me and my partner finish the MVP, we can move on to stage 6 to make sure everything is working right. In order to get there, What we need to focus on next to making our cards editable. Our plan right now is to use the function `updateDoc` for that.
 
+### Skills
 
-
+The skills I have learned from working towards our MVP are Communication and Collaboration. Communcation is important because there have been many times where I have had problems with my code and communicating with my partner was one of the best ways to solve them. Not only that but every Monday in class, we would communicate what our next steps should be and how the work would be split up. This would eventually bridge to Collaboration because everytime we finish our part, we would talk about what we should fix or change about our partners code.
 
 
 
