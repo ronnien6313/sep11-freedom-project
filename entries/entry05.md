@@ -33,9 +33,9 @@ document.querySelector('#save').addEventListener('click', function(){ // line 1
 
 ```
 
-Before I explain the code, How this app works right now is that when you there is a card that displays some of the information from the card. When you click the card, a pop-up appears with all the information written down by the user. The way you edit these cards is by clicking on a section which allows the user to delete and write new information. The first line of code makes it so the save button listens for a click, which will update and save all of the information inside the card. The next line grabs the element that contains the ID of the card. Every card has a unique ID and we only want to work with one card at a time, not all. Line 3 creates a constant that stores the actual ID of the card. From lines 4 to 6, We use `updateDoc` and pass `docRef` so it updates only the card with the same ID. We use `querySelector` to select the elements that contain information, and after that, line 7 closes the pop-up.
+Before I explain the code, How this app works right now is that when you there is a card that displays some of the information from the card. When you click the card, a pop-up appears with all the information written down by the user. The way you edit these cards is by clicking on a section which allows the user to delete and write new information. The first line of code makes it so the save button listens for a click, which will update and save all of the information inside the card. Line 2  grabs the element that contains the ID of the card. Every card has a unique ID and we only want to work with one card at a time. Line 3 creates a constant that stores the actual ID of the card. By using this ID, we can all the information contained in the card, in this case it is the title of the card, the notes, and the description. From lines 4 to 6, We use `updateDoc`, and by passing `docRef` we basically say that we want to access the information of the card we clicked and update it. We use `querySelector` to select the elements that contain information, and after that, line 7 closes the pop-up.
 
-After changing the firebase information, we have to change the display information of the card before we click on it. This is the code for that:
+After changing the firebase information, we have to change the display information of the card prior to clicking on it. This is the code for that:
 
 ```
 document.querySelector('#save').addEventListener('click',function(){
@@ -45,7 +45,7 @@ document.querySelector('#save').addEventListener('click',function(){
  })
 ```
 
-It listens for the same click on the save button, But this time it changes the contents of the card outside of the pop-up.
+It listens for the same click on the save button, But this time it changes the contents of the card outside of the pop-up. The way the card looks prior to clicking on it has the image, title, and description of the card, not the notes.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
