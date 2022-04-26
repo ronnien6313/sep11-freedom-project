@@ -33,7 +33,7 @@ document.querySelector('#save').addEventListener('click', function(){ // line 1
 
 ```
 
-The first line of code makes it so the save button listens for a click, which will change and save all of the information inside the card. The next line grabs the element that contains the ID of the card. Every card has a unique ID and we only want to work with one card at a time, not all. Line 3 creates a constant that stores the actual ID of the card. From lines 4 to 6, We use `updateDoc` and pass `docRef` so it updates only the card with the same ID. We use `querySelector` to select the elements that contain information, and after that, line 7 closes the pop-up.
+Before I explain the code, How this app works right now is that when you there is a card that displays some of the information from the card. When you click the card, a pop-up appears with all the information written down by the user. The way you edit these cards is by clicking on a section which allows the user to delete and write new information. The first line of code makes it so the save button listens for a click, which will update and save all of the information inside the card. The next line grabs the element that contains the ID of the card. Every card has a unique ID and we only want to work with one card at a time, not all. Line 3 creates a constant that stores the actual ID of the card. From lines 4 to 6, We use `updateDoc` and pass `docRef` so it updates only the card with the same ID. We use `querySelector` to select the elements that contain information, and after that, line 7 closes the pop-up.
 
 After changing the firebase information, we have to change the display information of the card before we click on it. This is the code for that:
 
