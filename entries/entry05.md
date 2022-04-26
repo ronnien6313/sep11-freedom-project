@@ -5,7 +5,7 @@
 
 After making it so you can add and delete a card, It was time for our final part which is to make it so you can edit / update a card. In order to update a card we need to import another tool from firebase which is `updateDoc`. These are all of our final imported tools.
 
-```
+```js
 import{ initializeApp }from 'firebase/app'
 import{
   getFirestore, collection, getDocs,
@@ -15,7 +15,7 @@ import{
 ```
 Here is the code for updating a card :
 
-```
+```js
 document.querySelector('#save').addEventListener('click', function(){ // line 1
   const docId = document.querySelector('#gone') // line 2
   const docRef = doc(db, 'cards', docId.innerHTML) // line 3
@@ -46,6 +46,14 @@ document.querySelector('#save').addEventListener('click',function(){
 ```
 
 It listens for the same click on the save button, But this time it changes the contents of the card outside of the pop-up. The way the card looks prior to clicking on it has the image, title, and description of the card, not the notes.
+
+### EDP
+
+I think that me and my partner are currently on Stage 6 or 7 of the EDP. We finished our MVP already and whats next is to make sure that it works well and possibly go beyond our MVP. Right now, everything mostly works as intended and going beyond MVP would be like adding Authenticaion. We can also do stuff like make the app look better and add more features like a search bar or sort the cards in alphabetical order, date added, etc.
+
+### Skills
+
+Some skills that I have learned from working towards the MVP is debugging and embracing failure. These two skills kind of go hand in hand because they both have to do with errors. Especially towards the end of our work, Me and my partnet have been experiencing more errors than before. It seemed like updating and deleting docs were kind of confusing at times. Instead of just quitting after encountering errors, me and my partner worked together to figure out the problem. My partner especially helped me at times because we talked through whether or not code should go inside a certain loop or outside.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
