@@ -45,6 +45,8 @@ document.querySelector('#save').addEventListener('click',function(){
  })
 ```
 
+It listens for the same click on the save button, But this time it changes the contents of the card outside of the pop-up.
+
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
