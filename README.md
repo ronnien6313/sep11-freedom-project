@@ -1,11 +1,11 @@
-# SEP11 Freedom Project
++-# SEP11 Freedom Project
 by Ronnie Ng
 
 ## Context
 The "Freedom Project" for SEP11 is all about creating an app based on what we want to make. The purpose of this blog is to write about my progress on creating my app.
 
 ## Content
-For my project, I am making an app that stores information with firebase. I was thinking about storing literally anythin,g but I would start with storing game information. This blog will walk through my process of independently studying firebase in order to make an app that stores information about games.
+For my project, Me and Wei Jie Jiang wanted to create a bulletin board application where you can share information with others online.
 
 ## Links
 
