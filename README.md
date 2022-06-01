@@ -9,7 +9,7 @@ For my project, Me and Wei Jie Jiang wanted to create a bulletin board applicati
 
 ## Links
 
-[Product](weijie2964.github.com/InfoCards/dist/login.html)
+[Product](weijie2964.github.io/InfoCards/dist/login.html)
 
 
 [Presentation](https://docs.google.com/presentation/d/1D6dm9_RRVJfqVNBE-yQC3ERYfOzlHSxmHqKHOf21sfI/edit#slide=id.p)
