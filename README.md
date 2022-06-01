@@ -17,7 +17,7 @@ Presentation
 
 Our app affects us Socially, Economically, and Globally.
 
-How does our app affect us, and our community? Our app affects us because it can be a resource to help find out answers to any questions you have. Depending on what people posts, it can provide useful information that you can use. You can also build relationships with others because when a person creates a post, the email of the person who posted it is shown. People can use this to connect with others if they feel that they share similarities or like the post. But, having a public bulletin board where you can post anything you want could be harmful because there could be people who will post explicit information.
+How does our app affect us, and our community? Our app affects us because it can be used as a resource to help find out answers to any questions you have. Depending on what people post, it can provide useful information that you can use. You can also build relationships with others because when a person creates a post, the email of the person who posted it is shown. People can use this to connect with others if they feel that they share similarities or like the post. But, having a public bulletin board where you can post anything you want could be harmful because there could be people who will post explicit information. This explicit card can not be edited or deleted by anyone but the creator of that post or me and Wei Jie which means it can disturb others.
 
 ---
 
