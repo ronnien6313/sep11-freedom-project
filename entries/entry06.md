@@ -16,6 +16,7 @@ Here is how it works: You first create an account with an email and password, Af
 
 If you want to test out the project here is the link and a few test emails.
 ```
+
 This basically summarizes our project but it sounded a bit too robot-y. What I mean by this is that it sounds unnatural when you speak it because we don't normally speak like this. If we were to say this word for word it would sound like we were reading them a paragraph out loud. During the Expo when the Judges came to our project, me and Wei Jie basically scrapped the elevator pitch and explained our project from our heart. It felt a lot less stressful because we didn't have to follow an exact script and it was more fun that way.
 
 Here are the scores for my SEP Expo from the judges :
