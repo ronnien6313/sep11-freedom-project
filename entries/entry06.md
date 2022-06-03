@@ -7,6 +7,14 @@ After me and my partner Wei Jie finalized our MVP, we decided to create a simple
 
 ### SEP Expo Takeaways
 
+Here are the scores for my SEP Expo from the judges :
+
+```
+Creativity: 3.5
+Usability: 3
+Enjoyability(09)/Practicality(10/11/12): 3
+Presentation: 3.5
+```
 
 
 ### In-Class Presentation Takeaways
